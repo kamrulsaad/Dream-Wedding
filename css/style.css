@@ -3,3 +3,18 @@
 *{
     font-family: 'Dongle', sans-serif;
 }
+.big-text{
+    font-size: 4rem;
+}
+.mdm-text{
+    font-size: 3.5rem;
+}
+.sml-text{
+    font-size: 0.85rem;
+}
+.special-card{
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-image: url(../files/icons/watermark.svg);
+}
+  

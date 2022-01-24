@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- bootstrap link  -->
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- fontawesome link  -->
+    <script src="https://kit.fontawesome.com/d822adfc40.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- nav section  -->
@@ -45,50 +47,128 @@
   </header>
   <main>
      <!-- carousel section  -->
-     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./files/images/banner.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-block d-md-block">
-            <h5 class="fs-1">The perfect venue for your
-              next event</h5>
+     <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./files/images/banner.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block d-md-block">
+              <h5 class="fs-1">The perfect venue for your
+                next event</h5>
+                <p class="fs-3">Make your wedding day remembered for the rest of your life</p>
+                <a class="btn pt-2 btn-outline-dark text-white fs-6" href="#packages" role="button">Book Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./files/images/Wedding pics/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block d-md-block">
+              <h5 class="fs-1">The perfect venue for your
+                next event</h5>
+                <p class="fs-3">Make your wedding day remembered for the rest of your life</p>
+                <a class="btn pt-2 btn-outline-dark text-white fs-6" href="#packages"role="button">Book Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./files/images/Wedding pics/wedding-edited-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block d-md-block">
+              <h5 class="fs-1">The perfect venue for your
+                next event</h5>
               <p class="fs-3">Make your wedding day remembered for the rest of your life</p>
-              <a class="btn pt-2 btn-outline-dark text-white fs-6" href="https://www.amazon.com/" role="button">Book Now</a>
+              <a class="btn pt-2 btn-outline-dark text-white fs-6" href="#packages" role="button">Book Now</a>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./files/images/Wedding pics/3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-block d-md-block">
-            <h5 class="fs-1">The perfect venue for your
-              next event</h5>
-              <p class="fs-3">Make your wedding day remembered for the rest of your life</p>
-              <a class="btn pt-2 btn-outline-dark text-white fs-6" href="https://www.amazon.com/" role="button">Book Now</a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+     </section>
+     <!-- packages section  -->
+     <section id="packages" class="my-5">
+        <h1 class="text-center mt-5 big-text">Our Packages</h1>
+        <div class="container row mx-auto">
+          <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card-body ">
+              <h5 class="card-title mdm-text">$300</h5>
+              <p class="card-text fs-1">Business fair</p>
+              <p class="text-muted fs-3">For most businesses event  like book fair, craft fair.</p>
+              <ul class="list-group border-0">
+                <li class="list-group-item sml-text border-0 text-muted ps-0"><i class="fas fa-check-circle"> limited space access
+                </i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Secuirty facility</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> event support</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Decoration design</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Per day bill</i></li>
+              </ul>
+              <a href="#" class="btn btn-primary rounded-pill pt-2 w-100 fs-5" style="background-color: #f496d23d; border: none; color: rgba(0, 0, 255, 0.548);">Choose plan</a>
+            </div>
+          </div>
+          <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card-body ">
+              <h5 class="card-title mdm-text">$500</h5>
+              <p class="card-text fs-1">Wedding Basic</p>
+              <p class="text-muted fs-3">For weddings with basic plan
+                and limited item</p>
+              <ul class="list-group border-0">
+                <li class="list-group-item sml-text border-0 text-muted ps-0"><i class="fas fa-check-circle"> Full space access
+                </i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Food arrangement</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> mangement support</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Decoration design</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Billed as shift</i></li>
+              </ul>
+              <a href="#" class="btn btn-primary rounded-pill pt-2 w-100 fs-5" style="background-color: #f496d23d; border: none; color: rgba(0, 0, 255, 0.548);">Choose plan</a>
+            </div>
+          </div>
+          <div class="card special-card text-white bg-primary col-lg-3 col-md-4 col-sm-6 col-12 shadow">
+            <span class="translate-middle badge rounded-pill bg-danger position-absolute top-0 start-0 sml-text">
+             Most popular
+            </span>
+            <div class="card-body ">
+              <h5 class="card-title mdm-text">$800</h5>
+              <p class="card-text fs-1">Wedding plus</p>
+              <p class="fs-3">For most weddings with
+                premium plans</p>
+              <ul class="list-group">
+                <li class="list-group-item sml-text border-0 text-white bg-primary ps-0"><i class="fas fa-check-circle"> Full space access
+                </i></li>
+                <li class="list-group-item border-0 text-white bg-primary ps-0"><i class="fas fa-check-circle sml-text"> Dedicated team</i></li>
+                <li class="list-group-item border-0 text-white bg-primary ps-0"><i class="fas fa-check-circle sml-text"> Buffet food</i></li>
+                <li class="list-group-item border-0 text-white bg-primary ps-0"><i class="fas fa-check-circle sml-text"> premium Decoration</i></li>
+                <li class="list-group-item border-0 text-white bg-primary ps-0"><i class="fas fa-check-circle sml-text"> pay as plan</i></li>
+              </ul>
+              <a href="#" class="btn btn-primary rounded-pill pt-2 w-100 fs-5" style="background-color: #fdfcfd; border: none; color: rgba(0, 0, 255, 0.993);">Choose plan</a>
+            </div>
+          </div>
+          <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card-body">
+              <h5 class="card-title mdm-text">$1200</h5>
+              <p class="card-text fs-1">Corporate event</p>
+              <p class="text-muted fs-3">For most corporate business events</p>
+              <ul class="list-group border-0">
+                <li class="list-group-item sml-text border-0 text-muted ps-0"><i class="fas fa-check-circle">  Full space access
+                </i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Dedicated team</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Premium Decoration</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> Buffet food</i></li>
+                <li class="list-group-item border-0 text-muted ps-0"><i class="fas fa-check-circle sml-text"> pay as plan</i></li>
+              </ul>
+              <a href="#" class="btn btn-primary rounded-pill pt-2 w-100 fs-5" style="background-color: #f496d23d; border: none; color: rgba(0, 0, 255, 0.548);">Choose plan</a>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./files/images/Wedding pics/wedding-edited-1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-block d-md-block">
-            <h5 class="fs-1">The perfect venue for your
-              next event</h5>
-            <p class="fs-3">Make your wedding day remembered for the rest of your life</p>
-            <a class="btn pt-2 btn-outline-dark text-white fs-6" href="https://www.amazon.com/" role="button">Book Now</a>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+     </section>
+     
   </main>
    
     <!-- toast section  -->
