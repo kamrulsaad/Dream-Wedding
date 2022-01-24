@@ -12,5 +12,10 @@
 .sml-text{
     font-size: 0.85rem;
 }
+.toast-position{
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
 
   
